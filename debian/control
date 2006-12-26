@@ -1,0 +1,24 @@
+Source: libgcgi
+Priority: optional
+Maintainer: Jeremy T. Bouse <jbouse@debian.org>
+Build-Depends: debhelper (>= 4.0.0), autotools-dev, libssl-dev
+Standards-Version: 3.7.2
+
+Package: libgcgi-dev
+Section: libdevel
+Architecture: any
+Depends: libgcgi0 (= ${Source-Version})
+Description: library for CGI programs in C
+ GCGI is a library that implements NCSA's common gateway interface (CGI)
+ as well as extensions to that interface as defined in RFC2388.
+ .
+ This package contains the header files and the static version
+ of the library.
+
+Package: libgcgi0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: library for CGI programs in C
+ GCGI is a library that implements NCSA's common gateway interface (CGI)
+ as well as extensions to that interface as defined in RFC2388.

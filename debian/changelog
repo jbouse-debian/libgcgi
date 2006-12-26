@@ -1,0 +1,21 @@
+libgcgi (0.9.5.dfsg-2) unstable; urgency=high
+
+  * Removed non-free IETF documents from source (Closes: #393387).
+  * Accept NMUs (Closes: #376454).
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Tue, 26 Dec 2006 13:56:24 -0500
+
+libgcgi (0.9.5-1.1) unstable; urgency=low
+
+  * NMU.
+  * debian/control: Remove unnecessary automake Build-Depend. (Closes:
+    #376454)
+
+ -- Eric Dorland <eric@debian.org>  Sat, 19 Aug 2006 14:03:39 -0400
+
+libgcgi (0.9.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Fri,  1 Oct 2004 19:47:52 -0700
+
