@@ -1,0 +1,3 @@
+# config/ltmain.sh is upgraded via dpatch to maintain
+# pristine upstream tarball minus DFSG content.
+libgcgi source: ancient-libtool config/ltmain.sh 1.4.2
