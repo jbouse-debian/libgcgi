@@ -1,3 +1,9 @@
+libgcgi (0.9.5.dfsg-3) unstable; urgency=low
+
+  * debian/watch: Update watch file to include dversionmanagle
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Fri, 27 Nov 2009 20:48:22 -0500
+
 libgcgi (0.9.5.dfsg-2) unstable; urgency=high
 
   * Removed non-free IETF documents from source (Closes: #393387).
