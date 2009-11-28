@@ -1,0 +1,3 @@
+config-guess.dpatch
+config-sub.dpatch
+libtoolize.dpatch
