@@ -1,8 +1,13 @@
 libgcgi (0.9.5.dfsg-3) unstable; urgency=low
 
-  * debian/watch: Update watch file to include dversionmanagle
+  * Update watch file to include dversionmanagle
+  * Update standard to 3.8.3 with changes for compliance
+  * Eliminate all issues causing lintian warnings
+  * Add dpatch to build
+  * Add patches to re-libtoolize build
+  * Add lintian override for config/ltmain.sh handled by dpatch
 
- -- Jeremy T. Bouse <jbouse@debian.org>  Fri, 27 Nov 2009 20:48:22 -0500
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sat, 28 Nov 2009 01:05:46 -0500
 
 libgcgi (0.9.5.dfsg-2) unstable; urgency=high
 
