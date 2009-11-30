@@ -1,3 +1,1 @@
-config-guess.dpatch
-config-sub.dpatch
-libtoolize.dpatch
+01_update_libtool.dpatch
