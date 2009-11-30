@@ -55,11 +55,11 @@ build-stamp:  config.status
 clean: unpatch
 	dh_testdir
 	dh_testroot
-	rm -f build-stamp 
-
+	[ ! -f config.status ] || ./config.status
 	[ ! -f Makefile ] || $(MAKE) distclean
 	dh_clean 
 	find . \( -type d -a -name .deps -prune -exec rm -rf {} \; \)
+	rm -f build-stamp 
 
 install: build
 	dh_testdir
