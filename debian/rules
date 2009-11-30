@@ -56,10 +56,10 @@ clean: unpatch
 	dh_testdir
 	dh_testroot
 	[ ! -f config.status ] || ./config.status
-	[ ! -f Makefile ] || $(MAKE) distclean
-	dh_clean 
-	find . \( -type d -a -name .deps -prune -exec rm -rf {} \; \)
+	dh_auto_clean
 	rm -f build-stamp 
+	find . \( -type d -a -name .deps -prune -exec rm -rf {} \; \)
+	dh_clean 
 
 install: build
 	dh_testdir
