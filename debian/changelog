@@ -1,3 +1,16 @@
+libgcgi (0.9.5.dfsg-4) unstable; urgency=low
+
+  * debian/control: Add Vcs-* headers
+  * debian/control: Remove autotools-dev from build dependency
+  * Re-tool libtoolize patch to simplify build
+  * debian/rules: Update clean target steps
+  * debian/rules: Clean-up FTBFS issues in previous package upload
+    (Closes: #558667)
+  * debian/source.lintian-overrides: Update for
+    config/config.{guess,sub}
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sun, 29 Nov 2009 20:02:45 -0500
+
 libgcgi (0.9.5.dfsg-3) unstable; urgency=low
 
   * Update watch file to include dversionmanagle
