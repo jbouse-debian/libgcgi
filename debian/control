@@ -2,7 +2,7 @@ Source: libgcgi
 Priority: optional
 Section: libs
 Maintainer: Jeremy T. Bouse <jbouse@debian.org>
-Build-Depends: debhelper (>= 7), autotools-dev, libssl-dev, dpatch
+Build-Depends: debhelper (>= 7), libssl-dev, dpatch
 Standards-Version: 3.8.3
 Homepage: http://www.catchen.org/gcgi/
 Vcs-Git: git://git.debian.org/collab-maint/libgcgi.git
