@@ -39,6 +39,7 @@ major=2
 
 config.status: patch-stamp configure
 	dh_testdir
+	find . \( -type f -a -name "Makefile.*" -prune -exec touch {} \; \)
 	# Add here commands to configure the package.
 	CFLAGS="$(CFLAGS)" ./configure --host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) --prefix=/usr --mandir=\$${prefix}/share/man --infodir=\$${prefix}/share/info --with-openssl
 
@@ -52,14 +53,14 @@ build-stamp:  config.status
 
 	touch build-stamp
 
-clean: unpatch
+clean: clean-patched unpatch
+
+clean-patched:
 	dh_testdir
 	dh_testroot
-	[ ! -f config.status ] || ./config.status
 	dh_auto_clean
-	rm -f build-stamp 
-	find . \( -type d -a -name .deps -prune -exec rm -rf {} \; \)
 	dh_clean 
+	find . \( -type d -a -name .deps -prune -exec rm -rf {} \; \)
 
 install: build
 	dh_testdir
