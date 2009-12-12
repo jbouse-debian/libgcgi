@@ -1,3 +1,11 @@
+libgcgi (0.9.5.dfsg-5) unstable; urgency=low
+
+  * debian/gbp.conf: Add Git Buildpackage config
+  * debian/rules: Fix FTBFS errors in target rules (Closes: #560580)
+  * debian/libgcgi*.install: Cleaned up install files
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sat, 12 Dec 2009 00:43:45 -0500
+
 libgcgi (0.9.5.dfsg-4) unstable; urgency=low
 
   * debian/control: Add Vcs-* headers
