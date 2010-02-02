@@ -3,7 +3,7 @@ Priority: optional
 Section: libs
 Maintainer: Jeremy T. Bouse <jbouse@debian.org>
 Build-Depends: debhelper (>= 7), libssl-dev, dpatch
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://www.catchen.org/gcgi/
 Vcs-Git: git://git.debian.org/collab-maint/libgcgi.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/libgcgi.git
