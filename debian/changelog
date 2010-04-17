@@ -1,3 +1,16 @@
+libgcgi (0.9.5.dfsg-5.1) unstable; urgency=low
+
+  [ Jeremy T. Bouse ]
+  * Update Standards-Version to 3.8.4
+  * Add misc:Depends to clear lintian warnings
+
+  [ Carsten Hey ]
+  * Non-maintainer upload.
+  * debian/rules: Avoid useless invocation of automake by touching
+    Makefile.* in the correct sequence (Closes: #571416)
+
+ -- Carsten Hey <carsten@debian.org>  Sat, 17 Apr 2010 23:46:56 +0200
+
 libgcgi (0.9.5.dfsg-5) unstable; urgency=low
 
   * debian/gbp.conf: Add Git Buildpackage config
