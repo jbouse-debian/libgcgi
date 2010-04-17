@@ -39,7 +39,8 @@ major=2
 
 config.status: patch-stamp configure
 	dh_testdir
-	find . \( -type f -a -name "Makefile.*" -prune -exec touch {} \; \)
+	find . \( -type f -a -name "Makefile.am" -prune -exec touch {} \; \)
+	find . \( -type f -a -name "Makefile.in" -prune -exec touch {} \; \)
 	# Add here commands to configure the package.
 	CFLAGS="$(CFLAGS)" ./configure --host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) --prefix=/usr --mandir=\$${prefix}/share/man --infodir=\$${prefix}/share/info --with-openssl
 
