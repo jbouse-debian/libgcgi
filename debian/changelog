@@ -1,3 +1,9 @@
+libgcgi (0.9.5.dfsg-6) unstable; urgency=low
+
+  * debian/control: Updated Standards-Version to 3.9.0
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sun, 11 Jul 2010 14:38:29 -0400
+
 libgcgi (0.9.5.dfsg-5.1) unstable; urgency=low
 
   [ Jeremy T. Bouse ]
