@@ -1,3 +1,0 @@
-version=2
-opts=dversionmangle=s/\.dfsg// \
-http://catchen.org/gcgi/ (?:.*/)?gcgi-(.*)\.tar\.gz debian uupdate
