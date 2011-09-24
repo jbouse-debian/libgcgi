@@ -1,3 +1,17 @@
+libgcgi (0.9.5.dfsg-7) unstable; urgency=low
+
+  * debian/watch: Removed as upstream website is gone
+  * Drop libgcgi.la from package to clearn lintian error
+  * debian/rules: update to clearn lintian build warnings
+  * Bump Standards-Version to 3.9.2 (no policy-related changes needed)
+  * Clean up lintian warnings
+
+  * This may likely be last update as I may request removal or orphan
+    the package as upstream has disappeared and I have not time to develop
+    the software further than it is now.
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sat, 24 Sep 2011 01:16:49 -0400
+
 libgcgi (0.9.5.dfsg-6) unstable; urgency=low
 
   * debian/control: Updated Standards-Version to 3.9.0
