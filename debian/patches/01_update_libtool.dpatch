@@ -1,8 +1,8 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 01_update_libtool.dpatch by  <root@solitare>
+## 01_update_libtool.dpatch by  <jbouse@debian.org>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
-## DP: No description.
+## DP: Update libtool of package to newer version than upstream
 
 @DPATCH@
 diff -urNad libgcgi~/Makefile.in libgcgi/Makefile.in

@@ -12,7 +12,7 @@ Package: libgcgi-dev
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, libgcgi0 (= ${binary:Version})
-Description: library for CGI programs in C
+Description: library for CGI programs in C (development files)
  GCGI is a library that implements NCSA's common gateway interface (CGI)
  as well as extensions to that interface as defined in RFC2388.
  .
@@ -20,7 +20,6 @@ Description: library for CGI programs in C
  of the library.
 
 Package: libgcgi0
-Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for CGI programs in C
